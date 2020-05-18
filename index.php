@@ -42,7 +42,7 @@ require_once('requires.php');
 
 
 
-            ?>
+
         </section><!-- /.content -->
     </div>
 
