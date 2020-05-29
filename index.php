@@ -22,7 +22,6 @@ if (isset($_GET['pagina'])){
 <?php require_once ('template/header2.php'); ?>
 <?php require_once ('template/nav.php'); ?>
 <?php require_once ('template/menu.php'); ?>
-
 <div class="container-fluid fondo-blanco">
 
     <!-- Content Wrapper. Contains page content -->
@@ -70,22 +69,5 @@ if (isset($_GET['pagina'])){
 <script src="<?php echo RUTA_PROYECTO ?>template/adminlte3/bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="<?php echo RUTA_PROYECTO ?>template/adminlte3/dist/js/adminlte.min.js"></script>
-<?php
-echo "<script>";
-echo "var COLORBASE_BOOTSTRAP = '".COLORBASE_BOOTSTRAP."';";
-echo "</script>";
-?>
-<script>
-    $(function () {
-
-        //Initialize Select2 Elements
-        $('.select2').select2();
-
-        //Initialize Select2 Elements
-        $('.select2bs4').select2({
-            theme: 'bootstrap4'
-        });
-    });
-</script>
 </body>
 </html>
