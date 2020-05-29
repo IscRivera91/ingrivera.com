@@ -14,33 +14,13 @@ require_once('requires.php');
 <?php require_once ('template/nav.php'); ?>
 <?php require_once ('template/menu.php'); ?>
 
-<div class="container-fluid">
+<div class="container-fluid fondo-blanco">
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content">
-
-            <?php if (isset($_GET['mensaje'])){ ?>
-                <br>
-                <div class="row">
-                    <div class="col-md-1"></div>
-
-                    <div class="col-md-10">
-                        <div class="alert alert-info alert-dismissible fade show" role="alert">
-                            <strong><?php echo $_GET['mensaje']; ?></strong>.
-                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-
-            <?php } // end if (isset($_GET['mensaje'])) ?>
-
-
-
+  
 
 
         </section><!-- /.content -->

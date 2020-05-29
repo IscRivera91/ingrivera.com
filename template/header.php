@@ -25,6 +25,7 @@
     <!-- Bootstrap4 Duallistbox -->
     <link rel="stylesheet" href="<?php echo RUTA_PROYECTO ?>template/adminlte3/bootstrap4-duallistbox/bootstrap-duallistbox.min.css">
 
-
     <link rel="stylesheet" href="<?php echo RUTA_PROYECTO ?>template/adminlte3/dist/css/adminlte.min.css">
+
+    <link rel="stylesheet" href="<?php echo RUTA_PROYECTO ?>template/own.css">
     
