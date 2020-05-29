@@ -1,8 +1,7 @@
 <?php
 	// config RUTA
 	define('RUTA_PROYECTO','http://localhost/');
-	define('NOMBRE_PROYECTO','');
-	define('RUTA_BASE',RUTA_PROYECTO.'index.php');
+	define('NOMBRE_PROYECTO','Ing Rivera');
 
     // COLORES
     define('COLORBASE','style="color:#17a2b8"');

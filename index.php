@@ -1,15 +1,24 @@
 <?php
-
 error_reporting(E_ALL);
-ini_set('upload_max_filesize', '2048M');
-ini_set('post_max_size', '2048M');
 ini_set('display_errors', 1);
 date_default_timezone_set('America/Mexico_City');
 require_once('requires.php');
+$pagina = "principal";
+
+if (isset($_GET['pagina'])){
+    if($_GET['pagina'] != '' || $_GET['pagina'] != null){
+    
+        $ruta_pagina = 'paginas/'.$_GET['pagina'].'.php';
+        if (file_exists($ruta_pagina)){
+            $pagina = $_GET['pagina'];
+        }else{
+            header_url('principal');
+        }
+    }   
+}
 
 ?>
 <?php require_once ('template/header.php'); ?>
-
 <?php require_once ('template/header2.php'); ?>
 <?php require_once ('template/nav.php'); ?>
 <?php require_once ('template/menu.php'); ?>
@@ -20,8 +29,8 @@ require_once('requires.php');
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content">
-  
-
+        <br>
+            <?php include('paginas/'.$pagina.'.php'); ?>
 
         </section><!-- /.content -->
     </div>
