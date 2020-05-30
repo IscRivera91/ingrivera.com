@@ -57,10 +57,4 @@ class html
         return $html_menu_hijo;
     }
 
-    public function menu_nieto()
-    {
-        
-    }
-
-    
 }
