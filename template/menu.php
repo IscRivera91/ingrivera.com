@@ -15,10 +15,7 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
     
-          <?php 
-            $menus =  new menus();
-            echo $menus->crear_menu();
-          ?>
+          <?php echo $menu; ?>
     
         </ul>
         

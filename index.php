@@ -17,6 +17,9 @@ if (isset($_GET['pagina'])){
     }   
 }
 
+$menus =  new menus();
+$menu = $menus->crear_menu();
+          
 ?>
 <?php require_once ('template/header.php'); ?>
 <?php require_once ('template/header2.php'); ?>
