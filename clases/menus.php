@@ -29,6 +29,11 @@ class menus {
                 'titulo' => 'desarrollo web',
                 'pagina' => 'desarrollo-web',
                 'icon' => 'fab fa-codepen'
+            ],
+            [
+                'titulo' => 'redes',
+                'pagina' => 'configuracion-de-redes',
+                'icon' => 'fas fa-network-wired'
             ]
         ];
         $this->menu .= $this->html->menu_padre('servicios','fab fa-servicestack',$hijos);
