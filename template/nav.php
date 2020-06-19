@@ -12,10 +12,16 @@
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
-      <!-- Messages Dropdown Menu -->
       <li class="nav-item" >
-
+        <a target="_blank" href="https://www.facebook.com/IngRiv3ra/"><img src="template/img/facebook.png"></a>
+      </li>
+      <li class="nav-item" >
+        <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g"><img src="template/img/youtube.png"></a>
+      </li>
+      <li class="nav-item" >
+        <img src="template/img/whatsapp.png">
       </li>
     </ul>
+    
   </nav>
   <!-- /.navbar -->

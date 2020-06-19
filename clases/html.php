@@ -2,13 +2,11 @@
 
 class html
 {
-    private string $pagina_actual = "";
+    
 
     public function __construct()
     {
-        if(isset($_GET['pagina'])){
-            $this->pagina_actual = $_GET['pagina'];
-        }
+
     }
 
     public function menu_padre(string $nombre, string $icon, array $hijos)

@@ -6,8 +6,8 @@ class menus {
     public function __construct()
     {
         $this->html = new html();
-        $this->menu_proyectos();
-        $this->menu_servicios();
+        //$this->menu_proyectos();
+        //$this->menu_servicios();
     }
 
     private function menu_proyectos():void
