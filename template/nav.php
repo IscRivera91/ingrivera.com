@@ -19,7 +19,10 @@
         <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g"><img src="template/img/youtube.png"></a>
       </li>
       <li class="nav-item" >
-        <img src="template/img/whatsapp.png">
+        <div class="col-xs-12">
+          <img src="template/img/whatsapp.png">
+        </div>
+        
       </li>
     </ul>
     
