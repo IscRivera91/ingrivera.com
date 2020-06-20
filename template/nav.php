@@ -13,13 +13,13 @@
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
       <li class="nav-item" >
-        <a target="_blank" href="https://www.facebook.com/IngRiv3ra/"><img src="template/img/facebook.png"></a>
+        <a target="_blank" href="https://www.facebook.com/IngRiv3ra/"><img src="<?php echo RUTA_PROYECTO; ?>template/img/facebook.png"></a>
       </li>
       <li class="nav-item" >
-        <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g"><img src="template/img/youtube.png"></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g"><img src="<?php echo RUTA_PROYECTO; ?>template/img/youtube.png"></a>
       </li>
       <li class="nav-item" >
-        <img src="template/img/whatsapp.png">
+        <img src="<?php echo RUTA_PROYECTO; ?>template/img/whatsapp.png">
       </li>
     </ul>
     
