@@ -19,7 +19,7 @@
         <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g"><img src="<?php echo RUTA_PROYECTO; ?>template/img/youtube.png"></a>
       </li>
       <li class="nav-item" >
-        <img src="<?php echo RUTA_PROYECTO; ?>template/img/whatsapp.png">
+      <a target="_blank" href="https://api.whatsapp.com/send?phone=522283371818"><img src="<?php echo RUTA_PROYECTO; ?>template/img/whatsapp.png"></a>
       </li>
     </ul>
     
