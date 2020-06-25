@@ -1,0 +1,1 @@
+<img width="100%" src="<?php echo RUTA_PROYECTO ?>template/img/construccion.png" alt="">
