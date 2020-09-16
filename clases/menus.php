@@ -3,20 +3,20 @@ class menus {
     private html $html;
     private string $menu = '';
 
-    public function __construct()
+    public function __construct($pagina)
     {
-        $this->html = new html();
-        //$this->menu_proyectos();
-        //$this->menu_servicios();
+        $this->html = new html($pagina);
+        $this->menu_proyectos();
+        $this->menu_servicios();
     }
 
     private function menu_proyectos():void
     {
         $hijos = [
             [
-                'titulo' => 'califica',
-                'pagina' => 'proyecto-califica',
-                'icon' => 'fas fa-calculator'
+                'titulo' => 'Argus',
+                'pagina' => 'proyecto-argus',
+                'icon' => 'fab fa-microsoft'
             ]
         ];
         $this->menu .= $this->html->menu_padre('proyectos','fas fa-project-diagram',$hijos);
@@ -26,14 +26,9 @@ class menus {
     {
         $hijos = [
             [
-                'titulo' => 'desarrollo web',
-                'pagina' => 'desarrollo-web',
-                'icon' => 'fab fa-codepen'
-            ],
-            [
-                'titulo' => 'redes',
-                'pagina' => 'configuracion-de-redes',
-                'icon' => 'fas fa-network-wired'
+                'titulo' => 'Cambio HDD a SSD',
+                'pagina' => 'hdd-a-ssd',
+                'icon' => 'fas fa-hdd'
             ]
         ];
         $this->menu .= $this->html->menu_padre('servicios','fab fa-servicestack',$hijos);

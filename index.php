@@ -17,7 +17,7 @@ if (isset($_GET['pagina'])){
     }   
 }
 
-$menus =  new menus();
+$menus =  new menus($pagina);
 $menu = $menus->crear_menu();
           
 ?>

@@ -2,11 +2,11 @@
 
 class html
 {
-    
+    public $pagina_actual = '';
 
-    public function __construct()
+    public function __construct($pagina)
     {
-
+        $this->pagina_actual = $pagina;
     }
 
     public function menu_padre(string $nombre, string $icon, array $hijos)
