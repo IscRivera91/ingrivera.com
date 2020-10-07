@@ -1,9 +1,0 @@
-Options -Indexes
-IndexIgnore *.php *.html *.pdf
-
-<IfModule mod_rewrite.c>    
-    RewriteEngine on
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^([A-Za-z0-9-]+) index.php?pagina=$1 [QSA]
-</IfModule>
