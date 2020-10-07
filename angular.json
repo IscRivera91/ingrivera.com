@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "AdminLTE3-Angular": {
+    "ingrivera.com": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/AdminLTE3-Angular",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,18 +69,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "AdminLTE3-Angular:build"
+            "browserTarget": "ingrivera.com:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "AdminLTE3-Angular:build:production"
+              "browserTarget": "ingrivera.com:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "AdminLTE3-Angular:build"
+            "browserTarget": "ingrivera.com:build"
           }
         },
         "test": {
@@ -117,18 +117,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "AdminLTE3-Angular:serve"
+            "devServerTarget": "ingrivera.com:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "AdminLTE3-Angular:serve:production"
+              "devServerTarget": "ingrivera.com:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "AdminLTE3-Angular",
+  "defaultProject": "ingrivera.com",
   "cli": {
     "analytics": false
   }
