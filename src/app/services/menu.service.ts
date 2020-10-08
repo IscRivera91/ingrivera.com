@@ -3,16 +3,25 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-
+// { path: 'proyecto-argus', component: ArgusComponent},
+// { path: 'proyecto-califica', component: CalificaComponent},
+// { path: 'estudios', component: CalificaComponent},
+// { path: 'experiencia.laboral', component: CalificaComponent},
 export class MenuService {
   public menu:MenuItem[] = [];
 
   constructor() {
     
-    let pagina:MenuItem = this.generaMenuItem('fas fa-file','Otrocasa');
-    pagina.SubMenuItems.push({link:'pagina1',texto: 'Pagina 1'});
-    pagina.SubMenuItems.push({link:'pagina2',texto: 'Pagina 2'});
-    this.guardaMenu(pagina);
+    let proyectos:MenuItem = this.generaMenuItem('far fa-folder-open','Proyectos');
+    proyectos.SubMenuItems.push({link:'proyecto-argus',texto:'Argus'});
+    proyectos.SubMenuItems.push({link:'proyecto-califica',texto:'Califica'});
+
+    let personal:MenuItem = this.generaMenuItem('fas fa-user-tie','Personal');
+    personal.SubMenuItems.push({link:'estudios',texto:'Estudios'});
+    personal.SubMenuItems.push({link:'experiencia-laboral',texto:'Exp Laboral'});
+    
+    this.guardaMenu(proyectos);
+    this.guardaMenu(personal);
 
   }
 

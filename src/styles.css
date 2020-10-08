@@ -3,10 +3,11 @@
     --color-principal-hover: #06788a;
     --color-secundario: white;
     --fredoka-one:'Fredoka One', cursive;
+    --open-sans: 'Open Sans', sans-serif;
 }
 
 body{
-    font-family: var(--fredoka-one);
+    font-family: var(--open-sans);
 }
 a.brand-link > span{
     color: var(--color-principal) !important;
@@ -18,5 +19,8 @@ li > a.nav-link {
 
 li > a.nav-link:hover {
     color: var(--color-principal-hover) !important;
+}
+section.content {
+    font-family: var(--fredoka-one);
 }
 

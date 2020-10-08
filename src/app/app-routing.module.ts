@@ -2,14 +2,21 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { IndexComponent } from './components/paginas/index/index.component';
-import { Pagina1Component } from './components/paginas/pagina1/pagina1.component';
-import { Pagina2Component } from './components/paginas/pagina2/pagina2.component';
+
+import { ArgusComponent } from './components/paginas/argus/argus.component';
+import { CalificaComponent } from './components/paginas/califica/califica.component';
+
+import { EstudiosComponent } from './components/paginas/estudios/estudios.component';
+import { ExperienciaLaboralComponent } from './components/paginas/experiencia-laboral/experiencia-laboral.component';
+
 
 
 const routes: Routes = [
   { path: '', component: IndexComponent},
-  { path: 'pagina1', component: Pagina1Component},
-  { path: 'pagina2', component: Pagina2Component},
+  { path: 'proyecto-argus', component: ArgusComponent},
+  { path: 'proyecto-califica', component: CalificaComponent},
+  { path: 'estudios', component: EstudiosComponent},
+  { path: 'experiencia-laboral', component: ExperienciaLaboralComponent},
   { path: '**', pathMatch: 'full', redirectTo: ''}
 ];
 
