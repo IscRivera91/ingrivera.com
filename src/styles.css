@@ -2,9 +2,12 @@
     --color-principal: #17a2b8;
     --color-principal-hover: #06788a;
     --color-secundario: white;
+    --fredoka-one:'Fredoka One', cursive;
 }
 
-
+body{
+    font-family: var(--fredoka-one);
+}
 a.brand-link > span{
     color: var(--color-principal) !important;
 }
