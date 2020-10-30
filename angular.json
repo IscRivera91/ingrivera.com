@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ingrivera.com": {
+    "webpersonal": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist",
+            "outputPath": "dist/webpersonal",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -24,16 +24,9 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/admin-lte/plugins/fontawesome-free/css/all.min.css",
-              "node_modules/admin-lte/dist/css/adminlte.min.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/admin-lte/plugins/jquery/jquery.min.js",
-              "node_modules/admin-lte/plugins/popper/umd/popper.min.js",
-              "node_modules/admin-lte/plugins/bootstrap/js/bootstrap.min.js",
-              "node_modules/admin-lte/dist/js/adminlte.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -69,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ingrivera.com:build"
+            "browserTarget": "webpersonal:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ingrivera.com:build:production"
+              "browserTarget": "webpersonal:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ingrivera.com:build"
+            "browserTarget": "webpersonal:build"
           }
         },
         "test": {
@@ -117,19 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ingrivera.com:serve"
+            "devServerTarget": "webpersonal:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ingrivera.com:serve:production"
+              "devServerTarget": "webpersonal:serve:production"
             }
           }
         }
       }
-    }
-  },
-  "defaultProject": "ingrivera.com",
-  "cli": {
-    "analytics": false
-  }
+    }},
+  "defaultProject": "webpersonal"
 }
