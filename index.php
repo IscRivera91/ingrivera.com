@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>DevResume - Bootstrap 4 Resume/CV Template For Software Developers</title>
+	<title>Ricardo Rivera Sanchez</title>
 	
 	<!-- Meta -->
 	<meta charset="utf-8">
