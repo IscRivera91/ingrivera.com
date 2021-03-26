@@ -12,8 +12,7 @@
             Yo no me considero un Full-Stack pero si he desarrollado sistemas desde 0 hasta llevarlos a produccion. tengo conocimientos intermedios
             para administrar servidores linux (Ubuntu-server) o hostings con CPANEL. <br><br>
 
-            Si quieres conocerme un poco mejor puedes visitar mi <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g">youtube</a> 
-            o mi <a target="_blank" href="https://blog.ingrivera.com/">blog personal</a>. 
+            Si quieres conocerme un poco mejor puedes visitar mi <a target="_blank" href="https://www.youtube.com/channel/UCwrroIsPYmCanh9QDvWdI3g">youtube</a>. 
         </p>
         </div><!--//media-body-->
     </div>
