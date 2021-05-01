@@ -39,7 +39,6 @@
         <p class="text-justify">
           Imparti clases de diferentes materias de la carrera de ingeniería en sistemas computacionales. <br>
           Desarrollo de pagina y sistema para administrar la misma de un hotel, de forma gratuita por convenio del tecnológico.
-          <a target="_blank" href="http://realinnuevomorelos.com.mx/">realinnuevomorelos.com.mx/</a>
         </p>
       </div>
     </div><!--//item-->
