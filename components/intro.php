@@ -3,7 +3,7 @@
         <img class="resume-profile-image mb-3 mb-md-0 mr-md-5 ml-md-0 rounded mx-auto" src="<?= URL ?>assets/images/resume-profile.png" alt="image">
         <div class="media-body text-left">
         <p class="mb-0 text-justify">
-            Yo soy un Web Developer, me encuentro actualemente en el estado de veracruz.
+            Yo soy un Web Developer, me encuentro actualmente en el estado de veracruz.
             aunque manejo el Front-End y el Back-End me gusta este ultimo, cuando tengo que resolver un problema 
             en algun sistema web y no afecta si la solucion se hacen en front o el back siempre prefiero el back. <br>
             <br>El lenguaje que mejor manejo es PHP, pero si es necesario ocupar algun otro lenguaje o tecnologia me siento
