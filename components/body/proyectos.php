@@ -10,11 +10,10 @@
       </div>
       <div class="item-content">
         <p class="text-justify">
-          Framework propio programado con PHP, OPP, MVC y MySQL para realizar proyectos freelance de una manera
-          mas rapida y sencilla, ya que cuenta con las herramientas, clases y elementos que habitualmente ocupo al desarrollar un nuevo sistema,
-          y con cada sistema que realizo con este framework poco a poco voy agregando mas funcionalidades a la base del mismo.
+          Own Framework make with PHP, OPP, MVC and MySQL to do projects in a easy and faster way. this Framework has the most common tools
+          that I use to make a new project. Sometimes when I´m develop a project and I need a new feature I add it to the Framework.
           <br>
-          <a href="https://github.com/IscRivera91/argus" target="_blank">repositorio en github</a>
+          <a href="https://github.com/IscRivera91/argus" target="_blank">Github</a>
         </p>
       </div>
     </div><!--//item-->
@@ -27,10 +26,9 @@
       </div>
       <div class="item-content">
         <p class="text-justify">
-          Sistema en php que sirve para conectarce a un router mikrotik configurado como hotspot para generar fichas de inteternet
-          de manera automatica y masiva. 
+          Project in PHP to make massive and automatic tikets in a hotspot Router Mikrotik
           <br>
-          <a href="https://github.com/IscRivera91/FicheroMaker" target="_blank">repositorio en github</a>
+          <a href="https://github.com/IscRivera91/FicheroMaker" target="_blank">Github</a>
         </p>
       </div>
     </div><!--//item-->

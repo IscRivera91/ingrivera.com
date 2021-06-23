@@ -29,8 +29,8 @@
 			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
 				
 				<?php require_once 'components/header.php' ?>
-				<hr>
-				<?php require_once 'components/intro.php' ?>
+				<!-- <hr> -->
+				<?php //require_once 'components/intro.php' ?>
 				<hr>
 				<?php require_once 'components/body/main.php' ?>
 						
