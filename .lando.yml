@@ -1,0 +1,6 @@
+name: ingrivera.com
+recipe: lamp
+config:
+  php: '8.1'
+  database: mysql:8.0
+  webroot: ./
