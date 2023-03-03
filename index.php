@@ -1,4 +1,3 @@
-<?php require_once ('config.php') ?>
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
@@ -8,7 +7,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Sitio web personal y cv online de Ricardo Rivera">
+	<meta name="description" content="CV of Ricardo Rivera Sanchez">
 	<meta name="author" content="Ricardo Rivera Sanchez">    
 	<link rel="shortcut icon" href="favicon.ico"> 
 	
@@ -29,8 +28,6 @@
 			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
 				
 				<?php require_once 'components/header.php' ?>
-				<!-- <hr> -->
-				<?php //require_once 'components/intro.php' ?>
 				<hr>
 				<?php require_once 'components/body/main.php' ?>
 						
