@@ -8,7 +8,9 @@
         </div>
         <div class="item-content">
             <p class="text-justify">
-                I worked in many projects with Drupal and Laravel.
+                I work using Drupal and Laravel. The most outstanding activities of my work were
+                modifying the behavior of existing modules and packages, creating pipelines to create
+                continuous integration with tools such as circleci and github actions.
             </p>
         </div>
     </div><!--//item-->
@@ -20,8 +22,11 @@
       </div>
       <div class="item-content">
           <p class="text-justify">
-              Instructor in arduino course for teachers of the ITESCO.<br>
-              Development of own framework in php to implement in different projects.
+              during my time as an independent programmer I created a
+              framework in PHP with MySQL [Argus] using the MVC design proton,
+              with which I developed different projects for a private client.
+              One of my outstanding achievements was to develop a large part of
+              the system to create electronic titles for the state of Veracruz.
           </p>
       </div>
     </div><!--//item-->
@@ -33,7 +38,11 @@
       </div>
       <div class="item-content">
         <p class="text-justify">
-          I worked in reduce the load time in some views on the framework of the company of 13seg to 4 seg.
+            In this job I was developing on a company's own
+            framework in which I helped to correct existing modules
+            and create new modules for it. One of my outstanding
+            achievements was to reduce the loading time
+            from 15 seconds to 4 seconds in critical parts of the system.
         </p>
       </div>
     </div><!--//item-->
